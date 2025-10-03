@@ -1,4 +1,4 @@
-<h1 align="center">🎆 Adyanta Web App (Client Project)</h1>
+<h1 align="center">🤝 Adyanta Web App (Client Project)</h1>
 <h3 align="center">Adyanta Educational Consultants (Client Project) is an Educational Consultation Website, I successfully developed and deployed 12 unique pages and 20+ dynamic, animated, and reusable components</h3>
  
 <p align="center">
@@ -15,7 +15,7 @@ Adyanta (Client Project) is an Educational Consultation Website developed using 
 
 ---
 
-## 🧠 Event Statistics
+## 🧠 Website Details
 
 - 🚌 **10,000+** – Professional Courses
 - 🧑‍💼 **1000+** – Students Enrolled
@@ -82,6 +82,7 @@ Adyanta (Client Project) is an Educational Consultation Website developed using 
 | Technology | Description |
 |------------|-------------|
 | **Frontend** | React.js, HTML5, CSS3, JavaScript |
+| **Hosting Platform** | Hostinger |
 
 ---
 
