@@ -2,7 +2,7 @@ import { Component, Fragment } from "react";
 import Footer from "../../component/layout/footer";
 import HeaderMasters from "../../component/layout/masters/header-masters";
 import MastersTwoPageHeader from "../../component/layout/masters/masters-header-2";
-import MastersCommentOne from "../../component/sidebar/masters/comment-1";
+import MastersCommentTwo from "../../component/sidebar/masters/comment-2";
 
 import TableTwoOne from "./tables/table2/table21";
 import TableTwoTwo from "./tables/table2/table22";
@@ -36,7 +36,7 @@ const MastersCanada = () => {
                                 <TableTwoTwo />
                                 <TableTwoThree />
 
-                                <MastersCommentOne />
+                                <MastersCommentTwo />
                             </div>
                         </div>
                     </div>

@@ -17,19 +17,19 @@ const instructorList = [
         imgUrl: 'assets/fly-assets/team/malleswararao.png',
         imgAlt: 'instructor nryadav nryadav',
         name: 'G. Malleshwara Rao',
-        degi: 'Senior Counselor',
-    },
-    {
-        imgUrl: 'assets/fly-assets/team/badri.png',
-        imgAlt: 'instructor nryadav nryadav',
-        name: 'V. Badri',
-        degi: 'Marketing Head',
+        degi: 'State Head',
     },
     {
         imgUrl: 'assets/fly-assets/mainlogo4.jpg',
         imgAlt: 'instructor nryadav nryadav',
         name: 'V. Himabindhu',
-        degi: 'Senior Applicant',
+        degi: 'Manager & Senior Applicant',
+    },
+    {
+        imgUrl: 'assets/fly-assets/team/badri.png',
+        imgAlt: 'instructor nryadav nryadav',
+        name: 'V. Badri',
+        degi: 'BDA',
     },
     {
         imgUrl: 'assets/fly-assets/mainlogo4.jpg',
@@ -61,8 +61,8 @@ const Instructor = () => {
                                             {/* <Link to="/team-single"> */}
                                                 <h4>{val.name}</h4>
                                             {/* </Link> */}
-                                            <p>{val.degi}</p>
-                                            <Rating />
+                                            <p style={{ fontSize : '16px', fontWeight : 600 }}>{val.degi}</p>
+                                            {/* <Rating /> */}
                                         </div>
                                     </div>
                                     {/* <div className="instructor-footer">

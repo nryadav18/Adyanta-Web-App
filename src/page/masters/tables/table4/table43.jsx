@@ -8,7 +8,7 @@ const ShopCartList = [
         imgAlt: 'Product Thumb',
         title: 'Product Text Here',
         quantity: 'Undergraduate (UG)',
-        totalPrice: 'CAD 15,000 - CAD 35,000+ per year (for international students)',
+        totalPrice: '£12,000 - £25,000 per year for international students',
         delImgUrl: 'assets/images/shop/del.png',
         delImgAlt: 'Remove Thumb',
     },
@@ -17,20 +17,29 @@ const ShopCartList = [
         imgAlt: 'Product Thumb',
         title: 'Product Text Here',
         quantity: 'Graduate (PG/Masters)',
-        totalPrice: 'CAD 15,000 - CAD 30,000+ per year',
+        totalPrice: '£13,000 - £30,000+ per year',
+        delImgUrl: 'assets/images/shop/del.png',
+        delImgAlt: 'Remove Thumb',
+    },
+    {
+        imgUrl: 'assets/images/shop/03.jpg',
+        imgAlt: 'Product Thumb',
+        title: 'Product Text Here',
+        quantity: 'Some specialized / medical / MBA programs',
+        totalPrice: '£30,000 - £45,000+ per year',
         delImgUrl: 'assets/images/shop/del.png',
         delImgAlt: 'Remove Thumb',
     }
 ]
 
 
-const TableTwoThree = () => {
+const TableFourThree = () => {
     return (
         <Fragment>
             <div className="shop-cart" style={{ paddingTop: '30px' }}>
                 <div className="container">
                     <div className="section-wrapper">
-                        <h4>How much will it cost to study in the Canada?</h4>
+                        <h4>How much will it cost to study in the United Kingdom?</h4>
                         <div className="cart-top">
                             <table>
                                 <thead>
@@ -58,4 +67,4 @@ const TableTwoThree = () => {
     );
 }
 
-export default TableTwoThree;
+export default TableFourThree;

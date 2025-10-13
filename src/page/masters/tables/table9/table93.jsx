@@ -7,30 +7,30 @@ const ShopCartList = [
         imgUrl: 'assets/images/shop/03.jpg',
         imgAlt: 'Product Thumb',
         title: 'Product Text Here',
-        quantity: 'Undergraduate (UG)',
-        totalPrice: 'CAD 15,000 - CAD 35,000+ per year (for international students)',
+        quantity: 'International UG fees in Irish universities',
+        totalPrice: ' €9,000 – €25,000+ depending on program and university.',
         delImgUrl: 'assets/images/shop/del.png',
         delImgAlt: 'Remove Thumb',
     },
     {
         imgUrl: 'assets/images/shop/03.jpg',
         imgAlt: 'Product Thumb',
-        title: 'Product Text Here',
-        quantity: 'Graduate (PG/Masters)',
-        totalPrice: 'CAD 15,000 - CAD 30,000+ per year',
+        title: 'PUBLIC UNIVERSTIES',
+        quantity: 'Postgraduate / master’s program',
+        totalPrice: 'depending on subject area, €9,000 – €30,000+',
         delImgUrl: 'assets/images/shop/del.png',
         delImgAlt: 'Remove Thumb',
     }
 ]
 
 
-const TableTwoThree = () => {
+const TableNineThree = () => {
     return (
         <Fragment>
             <div className="shop-cart" style={{ paddingTop: '30px' }}>
                 <div className="container">
                     <div className="section-wrapper">
-                        <h4>How much will it cost to study in the Canada?</h4>
+                        <h4>How much will it cost to study in the Ireland?</h4>
                         <div className="cart-top">
                             <table>
                                 <thead>
@@ -58,4 +58,4 @@ const TableTwoThree = () => {
     );
 }
 
-export default TableTwoThree;
+export default TableNineThree;

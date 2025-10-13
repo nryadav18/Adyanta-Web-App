@@ -7,8 +7,8 @@ const ShopCartList = [
         imgUrl: 'assets/images/shop/03.jpg',
         imgAlt: 'Product Thumb',
         title: 'Product Text Here',
-        quantity: 'Undergraduate (UG)',
-        totalPrice: 'CAD 15,000 - CAD 35,000+ per year (for international students)',
+        quantity: 'Private Universities / Specialized Programs Undergraduate (UG)',
+        totalPrice: '€100 - €350/semester',
         delImgUrl: 'assets/images/shop/del.png',
         delImgAlt: 'Remove Thumb',
     },
@@ -16,21 +16,39 @@ const ShopCartList = [
         imgUrl: 'assets/images/shop/03.jpg',
         imgAlt: 'Product Thumb',
         title: 'Product Text Here',
-        quantity: 'Graduate (PG/Masters)',
-        totalPrice: 'CAD 15,000 - CAD 30,000+ per year',
+        quantity: 'In some states (ex: Baden-Württemberg, Bavaria)',
+        totalPrice: '€1,500/semester',
+        delImgUrl: 'assets/images/shop/del.png',
+        delImgAlt: 'Remove Thumb',
+    },
+    {
+        imgUrl: 'assets/images/shop/03.jpg',
+        imgAlt: 'Product Thumb',
+        title: 'Product Text Here',
+        quantity: 'Postgraduate (PG / Master\'s)',
+        totalPrice: '€100 - €350/semester',
+        delImgUrl: 'assets/images/shop/del.png',
+        delImgAlt: 'Remove Thumb',
+    },
+    {
+        imgUrl: 'assets/images/shop/03.jpg',
+        imgAlt: 'Product Thumb',
+        title: 'Product Text Here',
+        quantity: 'Private universities or specialized programs (MBA, business, etc.)',
+        totalPrice: '€10,000 - €20,000+ per year',
         delImgUrl: 'assets/images/shop/del.png',
         delImgAlt: 'Remove Thumb',
     }
 ]
 
 
-const TableTwoThree = () => {
+const TableFiveThree = () => {
     return (
         <Fragment>
             <div className="shop-cart" style={{ paddingTop: '30px' }}>
                 <div className="container">
                     <div className="section-wrapper">
-                        <h4>How much will it cost to study in the Canada?</h4>
+                        <h4>How much will it cost to study in the Germany?</h4>
                         <div className="cart-top">
                             <table>
                                 <thead>
@@ -58,4 +76,4 @@ const TableTwoThree = () => {
     );
 }
 
-export default TableTwoThree;
+export default TableFiveThree;

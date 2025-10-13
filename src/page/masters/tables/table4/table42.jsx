@@ -4,11 +4,20 @@ import { Link } from "react-router-dom";
 
 const ShopCartList = [
     {
-        imgUrl: 'assets/images/shop/03.jpg',
+        imgUrl: 'assets/images/shop/01.jpg',
         imgAlt: 'Product Thumb',
         title: 'Product Text Here',
-        quantity: 'Undergraduate (UG)',
-        totalPrice: 'CAD 15,000 - CAD 35,000+ per year (for international students)',
+        quantity: 'F-1 Student Visa',
+        totalPrice: 'To study at an accredited United Kingdom college or university or to study English at an English language institute',
+        delImgUrl: 'assets/images/shop/del.png',
+        delImgAlt: 'Remove Thumb',
+    },
+    {
+        imgUrl: 'assets/images/shop/02.jpg',
+        imgAlt: 'Product Thumb',
+        title: 'Product Text Here',
+        quantity: 'J Exchange Visa',
+        totalPrice: 'For participation in an exchange program, including high school and university study',
         delImgUrl: 'assets/images/shop/del.png',
         delImgAlt: 'Remove Thumb',
     },
@@ -16,27 +25,28 @@ const ShopCartList = [
         imgUrl: 'assets/images/shop/03.jpg',
         imgAlt: 'Product Thumb',
         title: 'Product Text Here',
-        quantity: 'Graduate (PG/Masters)',
-        totalPrice: 'CAD 15,000 - CAD 30,000+ per year',
+        quantity: 'M Student Visa',
+        totalPrice: 'For non-academic or vocational study or training in the United Kingdom',
         delImgUrl: 'assets/images/shop/del.png',
         delImgAlt: 'Remove Thumb',
     }
 ]
 
 
-const TableTwoThree = () => {
+const TableFourTwo = () => {
     return (
         <Fragment>
             <div className="shop-cart" style={{ paddingTop: '30px' }}>
                 <div className="container">
                     <div className="section-wrapper">
-                        <h4>How much will it cost to study in the Canada?</h4>
+                        <h3>Student visa requirements for the United Kingdom</h3>
+                        <h4>The United Kingdom Government offers three different student visa types</h4>
                         <div className="cart-top">
                             <table>
                                 <thead>
                                     <tr>
-                                        <th className="cat-quantity">School</th>
-                                        <th className="cat-toprice" style={{ textAlign: 'left' }}>Tuition fees in Canadian Dollar (indicative)</th>
+                                        <th className="cat-quantity">Types of student visa</th>
+                                        <th className="cat-toprice" style={{ textAlign: 'left' }}>Description</th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -58,4 +68,4 @@ const TableTwoThree = () => {
     );
 }
 
-export default TableTwoThree;
+export default TableFourTwo;

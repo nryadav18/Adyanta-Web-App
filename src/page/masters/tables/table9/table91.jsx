@@ -4,11 +4,20 @@ import { Link } from "react-router-dom";
 
 const ShopCartList = [
     {
-        imgUrl: 'assets/images/shop/03.jpg',
+        imgUrl: 'assets/images/shop/01.jpg',
         imgAlt: 'Product Thumb',
         title: 'Product Text Here',
-        quantity: 'Undergraduate (UG)',
-        totalPrice: 'CAD 15,000 - CAD 35,000+ per year (for international students)',
+        quantity: 'Fall Term',
+        totalPrice: 'From August to December',
+        delImgUrl: 'assets/images/shop/del.png',
+        delImgAlt: 'Remove Thumb',
+    },
+    {
+        imgUrl: 'assets/images/shop/02.jpg',
+        imgAlt: 'Product Thumb',
+        title: 'Product Text Here',
+        quantity: 'Spring Term',
+        totalPrice: 'From January to April',
         delImgUrl: 'assets/images/shop/del.png',
         delImgAlt: 'Remove Thumb',
     },
@@ -16,27 +25,28 @@ const ShopCartList = [
         imgUrl: 'assets/images/shop/03.jpg',
         imgAlt: 'Product Thumb',
         title: 'Product Text Here',
-        quantity: 'Graduate (PG/Masters)',
-        totalPrice: 'CAD 15,000 - CAD 30,000+ per year',
+        quantity: 'Summer Term',
+        totalPrice: 'From May to August',
         delImgUrl: 'assets/images/shop/del.png',
         delImgAlt: 'Remove Thumb',
     }
 ]
 
 
-const TableTwoThree = () => {
+const TableNineOne = () => {
     return (
         <Fragment>
             <div className="shop-cart" style={{ paddingTop: '30px' }}>
                 <div className="container">
                     <div className="section-wrapper">
-                        <h4>How much will it cost to study in the Canada?</h4>
+                        <h3>Study In Ireland</h3>
+                        <h4>Know all about the intakes available in the Ireland</h4>
                         <div className="cart-top">
                             <table>
                                 <thead>
                                     <tr>
-                                        <th className="cat-quantity">School</th>
-                                        <th className="cat-toprice" style={{ textAlign: 'left' }}>Tuition fees in Canadian Dollar (indicative)</th>
+                                        <th className="cat-quantity">Quantity</th>
+                                        <th className="cat-toprice" style={{ textAlign: 'left' }}>Total</th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -51,6 +61,7 @@ const TableTwoThree = () => {
                                 </tbody>
                             </table>
                         </div>
+                        <p><b><i>Note: Intakes vary basis institution and your program.</i></b></p>
                     </div>
                 </div>
             </div>
@@ -58,4 +69,4 @@ const TableTwoThree = () => {
     );
 }
 
-export default TableTwoThree;
+export default TableNineOne;

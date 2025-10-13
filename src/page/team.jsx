@@ -16,19 +16,19 @@ const instructorList = [
         imgUrl: 'assets/fly-assets/team/malleswararao.jpg',
         imgAlt: 'instructor nryadav nryadav',
         name: 'G. Malleshwara Rao',
-        degi: 'Senior Counselor',
+        degi: 'State Head',
     },
     {
         imgUrl: 'assets/fly-assets/team/badri.jpg',
         imgAlt: 'instructor nryadav nryadav',
         name: 'V. Badri',
-        degi: 'Marketing Head',
+        degi: 'BDA',
     },
     {
         imgUrl: 'assets/fly-assets/mainlogo4.jpg',
         imgAlt: 'instructor nryadav nryadav',
         name: 'V. Himabindhu',
-        degi: 'Senior Applicant',
+        degi: 'Manager & Senior Applicant',
     },
     {
         imgUrl: 'assets/fly-assets/mainlogo4.jpg',

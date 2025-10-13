@@ -90,17 +90,17 @@ const Header = () => {
                                         <a href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-bs-offset="0,0">Country</a>
                                         <ul className="lab-ul dropdown-menu">
                                             <li><NavLink to="/masters-usa">USA</NavLink></li>
-                                            <li><NavLink to="/coming-soon">Canada</NavLink></li>
-                                            <li><NavLink to="/coming-soon">Australia</NavLink></li>
-                                            <li><NavLink to="/coming-soon">UK</NavLink></li>
+                                            <li><NavLink to="/masters-canada">Canada</NavLink></li>
+                                            <li><NavLink to="/masters-australia">Australia</NavLink></li>
+                                            <li><NavLink to="/masters-uk">UK</NavLink></li>
                                             <li className="menu-item-has-children">
                                                 <a href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-bs-offset="0,0">European Countries</a>
                                                 <ul className="lab-ul dropdown-menu">
-                                                    <li><NavLink to="/coming-soon">Germany</NavLink></li>
-                                                    <li><NavLink to="/coming-soon">France</NavLink></li>
-                                                    <li><NavLink to="/coming-soon">Italy</NavLink></li>
-                                                    <li><NavLink to="/coming-soon">Spain</NavLink></li>
-                                                    <li><NavLink to="/coming-soon">Ireland</NavLink></li>
+                                                    <li><NavLink to="/masters-germany">Germany</NavLink></li>
+                                                    <li><NavLink to="/masters-france">France</NavLink></li>
+                                                    <li><NavLink to="/masters-italy">Italy</NavLink></li>
+                                                    <li><NavLink to="/masters-spain">Spain</NavLink></li>
+                                                    <li><NavLink to="/masters-ireland">Ireland</NavLink></li>
                                                 </ul>
                                             </li>
                                         </ul>

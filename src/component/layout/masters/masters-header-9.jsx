@@ -1,8 +1,8 @@
 
 import Rating from "../../sidebar/rating";
 
-const title = "Dream Big Study in France...!";
-const desc = "Turn your France study aspirations into reality - it's closer than ever!";
+const title = "Dream Big Study in Ireland...!";
+const desc = "Turn your Ireland study aspirations into reality - it's closer than ever!";
 const author = "Adyanta";
 const reviewCount = "20K+ reviews";
 const videoLink = "https://www.youtube-nocookie.com/embed/jP649ZHA8Tg";
@@ -10,21 +10,21 @@ const videoLink = "https://www.youtube-nocookie.com/embed/jP649ZHA8Tg";
 
 const categoryList = [
     {
-        link: 'https://adyanta.co/masters-france',
-        text: 'Study at France Universities',
+        link: 'https://adyanta.co/masters-ireland',
+        text: 'Study at Ireland Universities',
         className: 'course-cate adyanta-bg-color',
     }
 ]
 
 
-const MastersSixPageHeader = () => {
+const MastersNinePageHeader = () => {
     return (
         <div className="pageheader-section style-2">
             <div className="container">
                 <div className="row justify-content-center justify-content-lg-between align-items-center flex-row-reverse">
                     <div className="col-lg-7 col-12">
                         <div className="pageheader-thumb">
-                            <img src="assets/fly-assets/masters/std_france.png" alt="nryadav" className="w-100" />
+                            <img src="assets/fly-assets/masters/std_ireland.jpg" alt="nryadav" className="w-100" />
                             {/* <a href={videoLink} className="video-button popup" target="_blank"><i className="icofont-ui-play"></i></a> */}
                         </div>
                     </div>
@@ -53,4 +53,4 @@ const MastersSixPageHeader = () => {
     );
 }
  
-export default MastersSixPageHeader;
+export default MastersNinePageHeader;

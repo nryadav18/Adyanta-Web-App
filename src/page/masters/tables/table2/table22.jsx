@@ -8,7 +8,7 @@ const ShopCartList = [
         imgAlt: 'Product Thumb',
         title: 'Product Text Here',
         quantity: 'F-1 Student Visa',
-        totalPrice: 'To study at an accredited US college or university or to study English at an English language institute',
+        totalPrice: 'To study at an accredited Canada college or university or to study English at an English language institute',
         delImgUrl: 'assets/images/shop/del.png',
         delImgAlt: 'Remove Thumb',
     },
@@ -26,7 +26,7 @@ const ShopCartList = [
         imgAlt: 'Product Thumb',
         title: 'Product Text Here',
         quantity: 'M Student Visa',
-        totalPrice: 'For non-academic or vocational study or training in the US',
+        totalPrice: 'For non-academic or vocational study or training in the Canada',
         delImgUrl: 'assets/images/shop/del.png',
         delImgAlt: 'Remove Thumb',
     }

@@ -42,8 +42,15 @@ import UniversityFour from "./page/medical/uni-four";
 import UniversityFive from "./page/medical/uni-five";
 import UniversitySix from "./page/medical/uni-six";
 import UniversitySeven from "./page/medical/uni-seven";
-import MastersUSA from "./page/masters/mas-usa";
 import MastersCanada from "./page/masters/mas-canada";
+import MastersUSA from "./page/masters/mas-usa";
+import MastersAustralia from "./page/masters/mas-australia";
+import MastersUK from "./page/masters/mas-uk";
+import MastersGermany from "./page/masters/mas-germany";
+import MastersFrance from "./page/masters/mas-france";
+import MastersItaly from "./page/masters/mas-italy";
+import MastersSpain from "./page/masters/mas-spain";
+import MastersIreland from "./page/masters/mas-ireland";
 
 // Add this CSS to your global CSS file or import it here
 // .fade-route-enter { opacity: 0; }
@@ -137,6 +144,13 @@ function AnimatedRoutes() {
                         <Route path="services" element={<AdyantaServices />} />
                         <Route path="masters-usa" element={<MastersUSA />} />
                         <Route path="masters-canada" element={<MastersCanada />} />
+                        <Route path="masters-uk" element={<MastersUK />} />
+                        <Route path="masters-australia" element={<MastersAustralia />} />
+                        <Route path="masters-germany" element={<MastersGermany />} />
+                        <Route path="masters-france" element={<MastersFrance />} />
+                        <Route path="masters-italy" element={<MastersItaly />} />
+                        <Route path="masters-spain" element={<MastersSpain />} />
+                        <Route path="masters-ireland" element={<MastersIreland />} />
 
                         {/* <Route path="index-2" element={<HomeTwo />} />
                         <Route path="index-3" element={<HomeThree />} />

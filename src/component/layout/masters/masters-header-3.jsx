@@ -1,8 +1,8 @@
 
 import Rating from "../../sidebar/rating";
 
-const title = "Dream Big Study in USA...!";
-const desc = "Turn your USA study aspirations into reality - it's closer than ever!";
+const title = "Dream Big Study in Australia...!";
+const desc = "Turn your Australia study aspirations into reality - it's closer than ever!";
 const author = "Adyanta";
 const reviewCount = "20K+ reviews";
 const videoLink = "https://www.youtube-nocookie.com/embed/jP649ZHA8Tg";
@@ -10,8 +10,8 @@ const videoLink = "https://www.youtube-nocookie.com/embed/jP649ZHA8Tg";
 
 const categoryList = [
     {
-        link: 'https://adyanta.co/masters-usa',
-        text: 'Study at USA Universities',
+        link: 'https://adyanta.co/masters-australia',
+        text: 'Study at Australia Universities',
         className: 'course-cate adyanta-bg-color',
     }
 ]
@@ -24,7 +24,7 @@ const MasterThreePageHeader = () => {
                 <div className="row justify-content-center justify-content-lg-between align-items-center flex-row-reverse">
                     <div className="col-lg-7 col-12">
                         <div className="pageheader-thumb">
-                            <img src="assets/fly-assets/masters/std_usa.jpg" alt="nryadav" className="w-100" />
+                            <img src="assets/fly-assets/masters/std_australia.png" alt="nryadav" className="w-100" />
                             {/* <a href={videoLink} className="video-button popup" target="_blank"><i className="icofont-ui-play"></i></a> */}
                         </div>
                     </div>

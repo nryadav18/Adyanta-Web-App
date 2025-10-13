@@ -7,8 +7,17 @@ const ShopCartList = [
         imgUrl: 'assets/images/shop/03.jpg',
         imgAlt: 'Product Thumb',
         title: 'Product Text Here',
-        quantity: 'Undergraduate (UG)',
-        totalPrice: 'CAD 15,000 - CAD 35,000+ per year (for international students)',
+        quantity: 'PUBLIC UNIVERSITIES',
+        totalPrice: '€700 ‑ ~€3,500 / year for UG public universities',
+        delImgUrl: 'assets/images/shop/del.png',
+        delImgAlt: 'Remove Thumb',
+    },
+    {
+        imgUrl: 'assets/images/shop/03.jpg',
+        imgAlt: 'Product Thumb',
+        title: 'PUBLIC UNIVERSTIES',
+        quantity: 'PUBLIC UNIVERSTIES',
+        totalPrice: '€1,500 ‑ ~€10,000+ / year for public Master’s programs, depending on the field of study',
         delImgUrl: 'assets/images/shop/del.png',
         delImgAlt: 'Remove Thumb',
     },
@@ -16,21 +25,30 @@ const ShopCartList = [
         imgUrl: 'assets/images/shop/03.jpg',
         imgAlt: 'Product Thumb',
         title: 'Product Text Here',
-        quantity: 'Graduate (PG/Masters)',
-        totalPrice: 'CAD 15,000 - CAD 30,000+ per year',
+        quantity: 'PRIVATE UNIVERSITIES',
+        totalPrice: '€5,500 ‑ ~€18,000 / year for many private UG programs',
+        delImgUrl: 'assets/images/shop/del.png',
+        delImgAlt: 'Remove Thumb',
+    },
+    {
+        imgUrl: 'assets/images/shop/03.jpg',
+        imgAlt: 'Product Thumb',
+        title: 'PRIVATE UNIVERSITIES',
+        quantity: 'Private universities or specialized programs (MBA, business, etc.)',
+        totalPrice: '€9,000 ‑ ~€30,000+ / year for private Master’s / business / specialized programs',
         delImgUrl: 'assets/images/shop/del.png',
         delImgAlt: 'Remove Thumb',
     }
 ]
 
 
-const TableTwoThree = () => {
+const TableEightThree = () => {
     return (
         <Fragment>
             <div className="shop-cart" style={{ paddingTop: '30px' }}>
                 <div className="container">
                     <div className="section-wrapper">
-                        <h4>How much will it cost to study in the Canada?</h4>
+                        <h4>How much will it cost to study in the Italy?</h4>
                         <div className="cart-top">
                             <table>
                                 <thead>
@@ -58,4 +76,4 @@ const TableTwoThree = () => {
     );
 }
 
-export default TableTwoThree;
+export default TableEightThree;
