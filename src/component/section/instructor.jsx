@@ -22,20 +22,26 @@ const instructorList = [
     {
         imgUrl: 'assets/fly-assets/mainlogo4.jpg',
         imgAlt: 'instructor nryadav nryadav',
-        name: 'V. Himabindhu',
-        degi: 'Manager & Senior Applicant',
+        name: 'V. Hima Bindu',
+        degi: 'Head-Operations',
     },
     {
-        imgUrl: 'assets/fly-assets/team/badri.png',
+        imgUrl: 'assets/fly-assets/team/chaitanya.jpeg',
         imgAlt: 'instructor nryadav nryadav',
-        name: 'V. Badri',
-        degi: 'BDA',
+        name: 'J. Chaitanya',
+        degi: 'Head Applications',
     },
     {
         imgUrl: 'assets/fly-assets/mainlogo4.jpg',
         imgAlt: 'instructor nryadav nryadav',
         name: 'Sk. Bhasha',
-        degi: 'Applicant',
+        degi: 'Applications Team',
+    },
+    {
+        imgUrl: 'assets/fly-assets/team/badri.png',
+        imgAlt: 'instructor nryadav nryadav',
+        name: 'V. Badri',
+        degi: 'Marketing Executive',
     },
 ]
 
@@ -45,7 +51,7 @@ const Instructor = () => {
         <div className="instructor-section padding-tb section-bg">
             <div className="container">
                 <div className="section-header text-center">
-                    <span className="subtitle">{subTitle}</span>
+                    {/* <span className="subtitle">{subTitle}</span> */}
                     <h2 className="title">{title}</h2>
                 </div>
                 <div className="section-wrapper">

@@ -11,7 +11,7 @@ const courseList = [
         imgAlt: 'Masters Stream',
         price: '10K+',
         cate: 'Masters',
-        title: 'Masters Admissions Abroad',
+        title: 'Masters Programs - International Admissions',
         totalLeson: 'Guidance & Support',
         schdule: 'Online/Offline',
         authorImgUrl: 'assets/images/course/author/01.jpg',
@@ -25,7 +25,7 @@ const courseList = [
         imgAlt: 'Medical Stream',
         price: '15K+',
         cate: 'Medical',
-        title: 'Medical Admissions Abroad',
+        title: 'Medical Programs - International Admissions',
         totalLeson: 'Guidance & Support',
         schdule: 'Online/Offline',
         authorImgUrl: 'assets/images/course/author/02.jpg',
@@ -39,7 +39,7 @@ const courseList = [
         imgAlt: 'Management Stream',
         price: '11K+',
         cate: 'Management',
-        title: 'Management Admissions Abroad',
+        title: 'Masters Programs - Management Admissoins',
         totalLeson: 'Guidance & Support',
         schdule: 'Online/Offline',
         authorImgUrl: 'assets/images/course/author/03.jpg',
@@ -53,7 +53,7 @@ const courseList = [
         imgAlt: 'Business Stream',
         price: '11K+',
         cate: 'Business',
-        title: 'Business Admissions Local',
+        title: 'Domestic Business School Admissions',
         totalLeson: 'Guidance & Support',
         schdule: 'Online/Offline',
         authorImgUrl: 'assets/images/course/author/03.jpg',
@@ -92,7 +92,7 @@ const Course = () => {
                                                     <span className="ratting-count"> {val.reviewCount}</span>
                                                 </div>
                                             </div>
-                                            <h4>{val.title}</h4>
+                                            <h4 style={{ fontSize : '20px' }}>{val.title}</h4>
                                             <div className="course-details">
                                                 <div className="couse-count"><i className="icofont-video-alt"></i> {val.totalLeson}</div>
                                                 <div className="couse-topic"><i className="icofont-signal"></i> {val.schdule}</div>

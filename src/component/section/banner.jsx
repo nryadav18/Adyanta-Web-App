@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 const subTitle = "Overseas Education";
 const title = <h2 className="title"><span className="d-lg-block">Empowering</span> Global Ambitions <span className="d-lg-block">Together</span></h2>;
-const desc = "Admissions | Scholarships | Visas | Choice Of University | Personalised Career Counselling | Online | Offline";
+const desc = "Career Counselling | Choice of University | Admissions | Scholarship | Visa Processing | Mock Interviews | Loan Assistance";
 
 
 const catagoryList = [

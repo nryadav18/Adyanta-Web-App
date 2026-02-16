@@ -1,7 +1,7 @@
 
 import { Link } from "react-router-dom";
 
-const newsTitle = "Want Us To Approach Us Regarding the Consultation for Future Educational Plans";
+const newsTitle = "Approach Us Regarding the Consultation for Future Educational Plans";
 const siteTitle = "Site Map";
 const useTitle = "Useful Links";
 const socialTitle = "Social Contact";

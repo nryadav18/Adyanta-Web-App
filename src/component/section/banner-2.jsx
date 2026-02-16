@@ -2,7 +2,7 @@
 
 
 const subTitle = "Overseas Education";
-const title = <h2 className="title"><span className="d-lg-block">Affordable Abroad Medical Education</span><span className="d-lg-block">with Consultation</span></h2>;
+const title = <h2 className="title"><span className="d-lg-block">International Medical Education</span><span className="d-lg-block">Solutions</span></h2>;
 const desc = "";
 
 

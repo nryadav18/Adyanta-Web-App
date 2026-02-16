@@ -10,7 +10,7 @@ import Student from "../component/section/student";
 
 
 const subTitle = "About Our Adyanta";
-const title = "Guiding Students Towards International Opportunities";
+const title = "Guiding Students Towards Global Opportunities";
 const desc = "Adyanta Overseas Education Consultants guide students towards international educational opportunities with personalized counseling and expert guidance. Adyanta has successfully helping students achieve their academic goals abroad.";
 
 const year = "10+";

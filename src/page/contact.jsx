@@ -17,19 +17,19 @@ const contactList = [
         imgUrl: 'assets/images/icon/01.png',
         imgAlt: 'contact icon',
         title: 'Office Address',
-        desc: '65-5-1/B, opp. GPT college, Mehar Nagar, Kakinada, Andhra Pradesh 533003',
+        desc: '65-5-1/C, opp. GPT college, Mehar Nagar, Kakinada, Andhra Pradesh 533003',
     },
     {
         imgUrl: 'assets/images/icon/02.png',
         imgAlt: 'contact icon',
         title: 'Phone numbers',
-        desc: '+91 7989848568 | +91 9809663999',
+        desc: '+91 9858178999 | +91 9858278999',
     },
     {
         imgUrl: 'assets/images/icon/03.png',
         imgAlt: 'contact icon',
         title: 'Send email',
-        desc: 'vamsi@adyanta.co',
+        desc: 'info@adyanta.co',
     },
     {
         imgUrl: 'assets/images/icon/04.png',

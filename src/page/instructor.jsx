@@ -41,7 +41,7 @@ const InstructorPage = () => {
             <div className="category-section padding-tb section-bg style-3">
                 <div className="container">
                     <div className="section-header text-center">
-                        <span className="subtitle">{subTitle}</span>
+                        {/* <span className="subtitle">{subTitle}</span> */}
                         <h2 className="title">{title}</h2>
                     </div>
                     <div className="section-wrapper">

@@ -19,22 +19,28 @@ const instructorList = [
         degi: 'State Head',
     },
     {
-        imgUrl: 'assets/fly-assets/team/badri.jpg',
-        imgAlt: 'instructor nryadav nryadav',
-        name: 'V. Badri',
-        degi: 'BDA',
-    },
-    {
         imgUrl: 'assets/fly-assets/mainlogo4.jpg',
         imgAlt: 'instructor nryadav nryadav',
-        name: 'V. Himabindhu',
-        degi: 'Manager & Senior Applicant',
+        name: 'V. Hima Bindu',
+        degi: 'Head-Operations',
+    },
+    {
+        imgUrl: 'assets/fly-assets/team/chaitanya.jpeg',
+        imgAlt: 'instructor nryadav nryadav',
+        name: 'J. Chaitanya',
+        degi: 'Head Applications',
     },
     {
         imgUrl: 'assets/fly-assets/mainlogo4.jpg',
         imgAlt: 'instructor nryadav nryadav',
         name: 'Sk. Bhasha',
-        degi: 'Applicant',
+        degi: 'Applications Team',
+    },
+    {
+        imgUrl: 'assets/fly-assets/team/badri.jpg',
+        imgAlt: 'instructor nryadav nryadav',
+        name: 'V. Badri',
+        degi: 'Marketing Executive',
     },
 ]
 

@@ -1,4 +1,3 @@
-
 import Rating from "../../sidebar/rating";
 
 const title = "Dream Big Study in Italy...!";

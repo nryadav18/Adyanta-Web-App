@@ -2,7 +2,7 @@
 import { Link } from "react-router-dom";
 
 
-const title = "Build Your Future Career with ADYANTA, One Stop Solution for Overseas Education";
+const title = "Build Your Career with ADYANTA, One Stop Solution for Overseas Education";
 const btnText = "Contact Now!";
 
 const skillList = [
