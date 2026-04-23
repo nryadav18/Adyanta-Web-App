@@ -3,7 +3,6 @@ import { Link, NavLink } from "react-router-dom";
 
 const phoneNumber = "+91-9858178999";
 const address1 = "info@adyanta.co";
-const address2 = "adyantaoverseas.kakinada@gmail.com";
 
 
 
@@ -51,7 +50,6 @@ const Header = () => {
                         <ul className="lab-ul left">
                             <li><i className="icofont-ui-call"></i> <span>{phoneNumber}</span></li>
                             <li><i className="icofont-email"></i> {address1}</li>
-                            <li><i className="icofont-email"></i> {address2}</li>
                         </ul>
                         <ul className="lab-ul social-icons d-flex align-items-center" id="header-social-icons">
                             <li><p>Find us on : </p></li>

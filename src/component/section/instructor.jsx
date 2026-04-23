@@ -20,15 +20,15 @@ const instructorList = [
         degi: 'State Head',
     },
     {
-        imgUrl: 'assets/fly-assets/mainlogo4.jpg',
-        imgAlt: 'instructor nryadav nryadav',
-        name: 'V. Hima Bindu',
-        degi: 'Head-Operations',
-    },
-    {
         imgUrl: 'assets/fly-assets/team/chaitanya.jpeg',
         imgAlt: 'instructor nryadav nryadav',
         name: 'J. Chaitanya',
+        degi: 'Head Operations',
+    },
+    {
+        imgUrl: 'assets/fly-assets/mainlogo4.jpg',
+        imgAlt: 'instructor nryadav nryadav',
+        name: 'V. Hima Bindu',
         degi: 'Head Applications',
     },
     {

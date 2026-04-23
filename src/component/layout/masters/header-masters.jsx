@@ -3,7 +3,6 @@ import { Link, NavLink } from "react-router-dom";
 
 const phoneNumber = "+91-9858178999";
 const address1 = "info@adyanta.co";
-const address2 = "adyantaoverseas.kakinada@gmail.com";
 
 
 
