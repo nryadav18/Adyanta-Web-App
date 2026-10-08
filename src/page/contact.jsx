@@ -17,7 +17,7 @@ const contactList = [
         imgUrl: 'assets/images/icon/01.png',
         imgAlt: 'contact icon',
         title: 'Office Address',
-        desc: '65-5-1/C, opp. GPT college, Mehar Nagar, Kakinada, Andhra Pradesh 533003',
+        desc: 'D.No: 67-1-4/2A, Ashok Nagar, Main Road, Chaganti Towers, Kakinada-533003',
     },
     {
         imgUrl: 'assets/images/icon/02.png',
